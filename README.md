@@ -4,7 +4,7 @@ Super simple kmeans clustering implementation.
 
 Use it like this:
 
-'''
+'''c++
 #include "kmeans.h"
 
 int main( int argc, char* argv[] )
