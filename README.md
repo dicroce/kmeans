@@ -34,3 +34,5 @@ int main( int argc, char* argv[] )
     return 0;
 }
 ```
+
+kmeans is header only and only depends on the STL, but the build here compiles a demo application that uses opengl. If you have trouble compiling (standard cmake stuff) just take kmeans.h, type_traits.h, zip.h, distance.h. You could probably even put it all in one .h file if you'd like.
