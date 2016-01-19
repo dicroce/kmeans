@@ -9,7 +9,7 @@ Use it like this:
 
 int main( int argc, char* argv[] )
 {
-    kmeans<double> km;
+    kmeans<float> km;
     
     std::vector<float> row1 = { 1, 2 };
     std::vector<float> row2 = { 3, 4 };
